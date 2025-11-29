@@ -1,6 +1,9 @@
 /**
+ * @deprecated 此版本已棄用，LINE Notify 服務已於 2025 年 3 月 31 日終止。
+ * 請改用 GCal2LINE.gs（LINE Bot API 版本）。
+ *
  * LINE Notify for Google Calendar Reminder (GCal2LINE)
- * 
+ *
  * 使用說明：
  * 1. 在「專案設定」下的「指令碼屬性」中設定 CALENDAR_ID（Google Calendar ID） 和 ACCESS_TOKEN（LINE Notify 存取權杖）
  * 2. 設定「觸發條件」為「時間驅動」每小時執行 checkAndNotify 函式
